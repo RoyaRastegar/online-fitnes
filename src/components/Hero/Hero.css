@@ -72,3 +72,18 @@
   color: var(--gray);
   text-transform: uppercase;
 }
+.hero-btn {
+  display: flex;
+  gap: 1rem;
+}
+.hero-btn > button:nth-of-type(1) {
+  color: white;
+  background-color: var(--orange);
+  width: 8rem;
+}
+.hero-btn > button:nth-of-type(2) {
+  color: white;
+  background-color: transparent;
+  width: 8rem;
+  border: 2px solid var(--orange);
+}
