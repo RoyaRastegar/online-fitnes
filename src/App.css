@@ -27,3 +27,13 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
 }
+.btn {
+  background-color: white;
+  border: 4px solid transparent;
+  font-weight: bold;
+  padding: 0.5rem;
+  transform: 300ms all;
+}
+.btn:hover {
+  cursor: pointer;
+}
